@@ -195,7 +195,7 @@ Prefer `pylint: disable` to the deprecated older form `pylint: disable-msg`.
 Unused argument warnings can be suppressed by deleting the variables at the
 beginning of the function. Always include a comment explaining why you are
 deleting it. "Unused." is sufficient. For example:
-
+ 
 ```python
 def viking_cafe_order(spam: str, beans: str, eggs: str | None = None) -> str:
     del beans, eggs  # Unused by vikings.
